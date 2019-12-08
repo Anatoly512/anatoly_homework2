@@ -10,7 +10,7 @@ public class Main {
         System.out.print("\nPlease, enter your NAME :  ");
         String name = inputData.stringInput();
 
-        System.out.println("\nYour NAME is :  " + name);
+
 
     }
 
