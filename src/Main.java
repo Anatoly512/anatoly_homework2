@@ -1,22 +1,17 @@
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-
+        new inputData();
+        personInfo();
     }
 
+    public static void  personInfo () {
 
-    public static String stringInput () {
-        Scanner input = new Scanner(System.in);
-        String name = input.next();
-        return name;
-    }
+        System.out.print("\nPlease, enter your NAME :  ");
+        String name = inputData.stringInput();
 
+        System.out.println("\nYour NAME is :  " + name);
 
-    public static int numberInput () {
-        Scanner in = new Scanner(System.in);
-        int number = in.nextInt();
-        return number;
     }
 
 
