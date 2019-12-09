@@ -67,7 +67,8 @@ public class Main {
 
     public static void output3 (String name, String city, int age, String hobby) {
         // other variant
-        System.out.println("\nVariant:  3 ");
+        System.out.println("\n:   ");
+
     }
 
 
