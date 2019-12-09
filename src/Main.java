@@ -49,7 +49,6 @@ public class Main {
 
                choice(name, city, age, hobby);
 
-
            }
 
     }
@@ -70,7 +69,7 @@ public class Main {
 
     public static void output3 (String name, String city, int age, String hobby) {
         // other variant
-        System.out.println("\n:   ");
+        System.out.println("\n:    ");
 
     }
 
