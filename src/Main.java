@@ -29,6 +29,7 @@ public class Main {
         System.out.println("\nPlease, input number of variant : \n\t  1 - Table, 2 - TEXT  or  3 - other form : ");
 
         choice(name, city, age, hobby);
+
     }
 
 
@@ -64,16 +65,17 @@ public class Main {
     public static void output2 (String name, String city, int age, String hobby) {
         // Text form
         System.out.print("\nA person " + name + " by name is " + age + " years old and lives in " + city + " city ");
-        System.out.println("and has " + hobby + " as favorite pastime.");
+        System.out.println("and has " + hobby + " as favorite pastime.\n");
     }
 
     public static void output3 (String name, String city, int age, String hobby) {
         // other variant
-        System.out.println("\n:    ");
-
+        System.out.println("\n" + name + "  -  name");
+        System.out.println(city + "  -  city");
+        System.out.println(age + "    -  age");
+        System.out.println(hobby + " -  hobby");
+        System.out.println("\n\n  Thank you!");
     }
-
-
 
 }
 
