@@ -15,6 +15,7 @@ public class Main {
         System.out.print("\nPlease, enter your NAME :  ");
         String name = inputData.stringInput();
 
+
         System.out.print("\nWhat city do you LIVE in :  ");
         String city = inputData.stringInput();
 
@@ -45,7 +46,9 @@ public class Main {
                output3(name, city, age, hobby);
            } else {
                System.out.println("\nPlease, try again (possible variants: 1, 2 or 3) : ");
+             
                choice(name, city, age, hobby);
+
 
            }
 
