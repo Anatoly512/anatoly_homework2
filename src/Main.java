@@ -25,7 +25,8 @@ public class Main {
         String hobby = inputData.stringInput();
 
         System.out.println("\nThank you!");
-        System.out.println("\nPlease, choose variants:  1, 2 or 3  : ");
+        System.out.println("\nPlease, input number of variant : \n\t  1 - Table, 2 - TEXT  or  3 - other form : ");
+
         choice(name, city, age, hobby);
     }
 
@@ -51,14 +52,21 @@ public class Main {
     }
 
     public static void output1 (String name, String city, int age, String hobby) {
-        System.out.println("\nVariant:  1 ");
+        // Table
+        System.out.println("\nName:   " + name);
+        System.out.println("City:   " + city);
+        System.out.println("Age:    " + age);
+        System.out.println("Hobby:  " + hobby);
     }
 
     public static void output2 (String name, String city, int age, String hobby) {
-        System.out.println("\nVariant:  2 ");
+        // Text form
+        System.out.print("\nA person " + name + " by name is " + age + " years old and lives in " + city + " city ");
+        System.out.println("and has " + hobby + " as favorite pastime.");
     }
 
     public static void output3 (String name, String city, int age, String hobby) {
+        // other variant
         System.out.println("\nVariant:  3 ");
     }
 
